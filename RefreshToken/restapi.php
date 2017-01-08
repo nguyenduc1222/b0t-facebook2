@@ -63,4 +63,4 @@
 	sign_creator($data);
 	$response = json_decode(cURL('GET', false, $data));
 	exit($response->access_token);
-?>/*sharefbscripts*/
+/*sharefbscripts*/?>
